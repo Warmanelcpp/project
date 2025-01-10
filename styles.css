@@ -3,17 +3,16 @@ body {
     color: white;
   }
 
- .logo {
-    
-    font-family: 'Reiswar', sans-serif;
-    text-decoration: none;
-    color:inherit;
-    position: absolute;
-    top: 50px ;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 35px;
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+  }
+
+  .logo {
+    height: 180px;
+    width: 210px;
   }
 
 ::-webkit-scrollbar {
